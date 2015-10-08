@@ -1,0 +1,11 @@
+int mstrlen(char *s);
+char *mstrlwr(char *s);
+char *mstrupr(char *s);
+char *mstrcpy(char *s, char *t);
+char *mstrcat(char *s, char *t);
+int mstrcmp(char *s, char *t);
+char *mstrchr(char *s, char a);
+char *mstrrchr(char *s, char a);
+char *mstrstr(char *s, char *t);
+char *mstrrev(char *s);
+char *mstrtok(char *s, char *delimiters);
